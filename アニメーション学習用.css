@@ -1,0 +1,282 @@
+@charset"utf-8";
+
+/*=================================
+リセットCSS
+=================================*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+
+strong,
+
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  /* text-decoration: none; */
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+.resizeimage img {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*=================================
+リセットCSSここまで
+=================================*/
+
+
+/**************************************************/
+form{
+  width: 500px;
+  /* background-color: red; */
+}
+
+table{
+  margin: 40px 0 0 40px;
+}
+
+tr{
+  line-height: 2.5rem;
+}
+
+.formTitle{
+  width: 150px;
+}
+
+
+
+fieldset{
+  margin: 40px 0 40px 40px;
+  /* padding: 10px 0; */
+  background-color: rgb(248, 233, 233);
+}
+
+#prefecture{
+margin: 40px 0 40px 40px;
+display: flex;
+gap:20px
+}
+
+#file-submit{
+  margin: 40px 0 0 40px;
+}
+
+/* #submit-resetButton {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+input[type="reset"],
+button[type="submit"] {
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+input[type="reset"] {
+  background-color: rgb(140, 209, 236);
+}
+
+input[type="reset"]:hover {
+  background-color: rgb(24, 143, 190);
+  color: #fff;
+}
+
+button[type="submit"] {
+  background-color: rgb(233, 172, 172);
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(240, 71, 71);
+  color: #fff;
+}
+
+*/
+
+ #sample1{
+  margin: 40px 0 0 40px;
+}
+
+#sample2{
+  margin: 40px 0 0 40px;
+}
+
+input {
+  /* margin: 10px; */
+  padding: 10px;
+}
+
+.name {
+  width: 100px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+select {
+  margin: 10px;
+  margin: 15px;
+  display: block;
+ width: 380px;
+ text-align: center;
+ font-weight: bold;
+ 
+}
+
