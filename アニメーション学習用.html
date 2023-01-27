@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>アニメーション学習用</title>
+  <link rel="stylesheet" href="../アニメーション学習用/アニメーション学習用.css">
+  <script src="https://kit.fontawesome.com/300c0edaf1.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="../アイコン/檜山沙耶警察.jpg">
+
+
+<body>
+
+
+
+
+<div id="sample1">
+  <input type="submit" value="送信">入力内容を送信します
+</div>
+
+<div id="sample2">
+<button type="submit" value="送信">
+
+
+
+</button>
+
+
+</div>
+
+
+
+
+<form action="https://hiyamasaya.com" method="post" enctype="multipart/form-data">
+  <div id="file-submit">
+  <input type="file" name="file"multiple>
+  <button tyoe="submit">ファイルを送信する</button>
+  </div>
+
+
+
+
+
+
+  <table>
+    <tr>
+      <td class="formTitle"><label for="yourName">お名前</label></td>
+      <td><input type="text" id="yourName" name="userName"></td>
+    </tr>
+  
+    <tr>
+      <td class="formTitle"><label for="yourEmail">メールアドレス</label></td>
+      <td><input type="email" id="yourEmail" name="userEmail"></td>
+    </tr>
+  
+    <tr>
+      <td class="formTitle"><label for="yourtelnumber">お電話番号</label></td>
+      <td><input type="tel" id="yourtelnumber" name="userTelnumber"></td>
+    </tr>
+  
+    <tr>
+      <td class="formTitle"><label for="yourPassword">パスワード</label></td>
+      <td><input type="password" id="yourPassowrd" name="userPassword"></td>
+    </tr>
+
+    <tr>
+      <td class="formTitle"><label for="buyNumer">購入数</label></td>
+      <td><input type="number" id="buyNumber" name="userBuynumber"></td>
+    </tr>
+
+    <tr>
+      <td class="formTitle"><label for="yourBirth">生年月日</label></td>
+      <td><input type="date" id="yourBirth" name="userBirth"></td>
+    </tr>
+
+
+    <tr>
+      <td class="formTitle"><label for="yourTime">予約時間</label></td>
+      <td><input type="time" id="yourTime" name="userTime"></td>
+    </tr>
+
+    <tr>
+      <td class="formTitle"><label for="volume">音量調整</label></td>
+      <td><input type="range" id="volume" name="volume" min="0" max="10" step="1"></td>
+      </tr>
+      
+      <tr>
+        <td class="formTitle"><label for="volume">セミナーを受けてみて</label></td>
+        <td>悪かった<input type="range" id="volume" name="volume" min="0" max="10" step="1">良かった</td>
+      </tr>
+    </table>
+      
+<fieldset>
+<legend>血液型を選択してください。</legend>
+  <input type="radio"  name="blood" id="A" value="A-type" ><label for="A">A型</label>
+  <input type="radio" name="blood" id="B" value="B-type"><label for="B">B型</label>
+  <input type="radio" name="blood" id="O" value="O-type" required><label for="O">O型</label>
+  <input type="radio" name="blood" id="AB" value="AB-type"><label for="AB">AB型</label>
+  <input type="radio" name="blood" id="不明" value="不明" ><label for="不明">不明</label>
+</fieldset>
+
+<fieldset>
+  <legend>好きなキャスターを選択してください。</legend>
+    <input type="checkbox" name="favorite" id="saya" value="hiyama" ><label for="saya">檜山沙耶</label>
+    <input type="checkbox" name="favorite" id="yui" value="yui"><label for="yui">駒木結衣</label>
+    <input type="checkbox" name="favorite" id="nana" value="takayama"><label for="nana">高山奈々</label>
+    <input type="checkbox" name="favorite" id="rinon" value="oshima"><label for="rinon">大島璃音</label>
+    <input type="checkbox" name="favorite" id="なし" value="なし" checked><label for="なし">どれも該当しない</label>
+  </fieldset>
+
+<fieldset>
+  <input type="checkbox" id="agree" value="accept" required><label for="agree">利用規約に同意します。</label>
+</fieldset>
+
+<div id="prefecture">
+  <p>都道府県を選択してください</p>
+<select>
+  <!-- <option name="prefecture" value="">都道府県を選択</option>
+  <option name="prefecture" value="hokkaido">北海道</option>
+  <optgroup label="東北">
+  <option name="prefecture" value="aomori">青森県</option>
+  <option name="prefecture" value="iwate">岩手県</option>
+  <option name="prefecture" value="akita">秋田県</option>
+  <option name="prefecture" value="miyagi">宮城県</option>
+  <option name="prefecture" value="yamagata">山形県</option>
+  <option name="prefecture" value="hukushima">福島県</option>
+</optgroup> -->
+<optgroup label="関東">
+<option name="prefecture" value="ibaraki">茨城県</option>
+<option name="prefecture" value="tochigi">栃木県</option>
+<option name="prefecture" value="gunma">群馬県</option>
+<option name="prefecture" value="saitama" selected>埼玉県</option>
+<option name="prefecture" value="chiba">千葉県</option>
+<option name="prefecture" value="tokyo">東京都</option>
+<option name="prefecture" value="kanagawa">神奈川県</option>
+</optgroup>
+</select>
+</div>
+
+<fieldset>
+  <legend>お客様情報を入力して下さい</legend>
+  <p>
+    <label for="yourname">お名前</label>
+    <input type="text" name="last-name" placeholder="姓" class="name" id="yourname">
+    <input type="text" name="first-name" placeholder="名" class="name" id="yourname">
+  </p>
+
+  <p>
+    性別：
+    <input type="radio" name="gender" value="male" id="male">
+    <label for="male">男</label>
+    <input type="radio" name="gender" value="female" id="female">
+    <label for="female">女</label>
+  </p>
+
+  <p>
+    <label for="yourbirth">生年月日：</label>
+    <select id="yourbirth">
+      <option name="month" value="">--</option>
+      <option name="month" value="1">1</option>
+      <option name="month" value="2">2</option>
+      <option name="month" value="3">3</option>
+      <option name="month" value="4">4</option>
+      <option name="month" value="5">5</option>
+      <option name="month" value="6">6</option>
+      <option name="month" value="7">7</option>
+      <option name="month" value="8">8</option>
+      <option name="month" value="9">9</option>
+      <option name="month" value="10">10</option>
+      <option name="month" value="11">11</option>
+      <option name="month" value="12">12</option>
+    </select>月
+
+    <select id="yourbirth">
+      <option name="day" value="">--</option>
+      <option name="day" value="1">1</option>
+      <option name="day" value="2">2</option>
+      <option name="day" value="3">3</option>
+      <option name="day" value="4">4</option>
+      <option name="day" value="5">5</option>
+      <option name="day" value="6">6</option>
+      <option name="day" value="7">7</option>
+      <option name="day" value="8">8</option>
+      <option name="day" value="9">9</option>
+      <option name="day" value="10">10</option>
+      <option name="day" value="11">11</option>
+      <option name="day" value="12">12</option>
+      <option name="day" value="13">13</option>
+      <option name="day" value="14">14</option>
+      <option name="day" value="15">15</option>
+      <option name="day" value="16">16</option>
+      <option name="day" value="17">17</option>
+      <option name="day" value="18">18</option>
+      <option name="day" value="19">19</option>
+      <option name="day" value="20">20</option>
+      <option name="day" value="21">21</option>
+      <option name="day" value="22">22</option>
+      <option name="day" value="23">23</option>
+      <option name="day" value="24">24</option>
+      <option name="day" value="25">25</option>
+      <option name="day" value="26">26</option>
+      <option name="day" value="27">27</option>
+      <option name="day" value="28">28</option>
+      <option name="day" value="29">29</option>
+      <option name="day" value="30">30</option>
+      <option name="day" value="31">31</option>
+    </select>日
+
+  <p><label for="mailaddress">メールアドレス：</label><input type="email" id="mailaddress"></p>
+</fieldset>
+
+
+<fieldset>
+  <legend>参加希望日時を選択して下さい</legend>
+  <p>第①希望日：<input type="radio" name="first" value="twenty-one" required>12月21日
+    <input type="radio" name="first" value="twenty-two">12月22日
+    <input type="radio" name="first" value="twenty-three">12月23日
+  </p>
+
+  <p>第②希望日：<input type="radio" name="second" value="twenty-one">12月21日
+    <input type="radio" name="second" value="twenty-two">12月22日
+    <input type="radio" name="second" value="twenty-three">12月23日
+  </p>
+
+  <p>第③希望日：<input type="radio" name="third" value="twenty-one">12月21日
+    <input type="radio" name="third" value="twenty-two">12月22日
+    <input type="radio" name="third" value="twenty-three">12月23日
+  </p>
+</fieldset>
+
+
+
+
+<div id="submit-resetButton">
+<input type="reset" value="すべてリセットする">
+ <button type="submit">入力内容を送信します</button>
+
+ <button type="reset">リセットボタン</button>
+
+</div>
+</form>
+
+<a href="">
+  <h1><img src="" alt=""></h1>
+</a>
+
+
+
+<link rel="stylesheet" href="style.css">
+
+
+
+
+<a href=""></a>
+
+<div class="hiyama"></div>
+
+
+
+
+</body>
+
+
+</html>
